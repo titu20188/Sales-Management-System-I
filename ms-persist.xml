@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PendingCommit>
+  <CommitComment />
+  <TrackedFiles>
+    <RelativePath>Sales-Management-System.sln</RelativePath>
+    <RelativePath>Sales-Management-System\App.config</RelativePath>
+    <RelativePath>Sales-Management-System\CONNECT.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Este3lam3anSanf.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Este3lam3anSanf.resx</RelativePath>
+    <RelativePath>Sales-Management-System\Este3lam3anSanf.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Form1.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Form1.resx</RelativePath>
+    <RelativePath>Sales-Management-System\Form1.vb</RelativePath>
+    <RelativePath>Sales-Management-System\frmConnectToneededDbase.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\frmConnectToneededDbase.vb</RelativePath>
+    <RelativePath>Sales-Management-System\frmCopier.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\frmCopier.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab1.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab1.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab1.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab10.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab10.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab10.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab11.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab11.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab11.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab12.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab12.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab12.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab2.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab2.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab2.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab3.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab3.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab3.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab4.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab4.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab4.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab5.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab5.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab5.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab6.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab6.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab6.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab7.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab7.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab7.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab8.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab8.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab8.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab9.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\fTab9.resx</RelativePath>
+    <RelativePath>Sales-Management-System\fTab9.vb</RelativePath>
+    <RelativePath>Sales-Management-System\leavingfrm.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\leavingfrm.resx</RelativePath>
+    <RelativePath>Sales-Management-System\leavingfrm.vb</RelativePath>
+    <RelativePath>Sales-Management-System\login_Sym.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\login_Sym.resx</RelativePath>
+    <RelativePath>Sales-Management-System\login_Sym.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Mainform.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Mainform.resx</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Application.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Application.myapp</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\AssemblyInfo.vb</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Resources.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Resources.resx</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Settings.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\My Project\Settings.settings</RelativePath>
+    <RelativePath>Sales-Management-System\RaseedOmala.Designer.vb</RelativePath>
+    <RelativePath>Sales-Management-System\RaseedOmala.resx</RelativePath>
+    <RelativePath>Sales-Management-System\RaseedOmala.vb</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\BarSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\BatterySkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\btn1.jpg</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\DBClockSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\DigitalSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\GaugeDescription.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\IndicatorSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\KpiSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\LcdSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\LinearSkin.png</RelativePath>
+    <RelativePath>Sales-Management-System\Resources\Medusa_0.fw.png</RelativePath>
+    <RelativePath>Sales-Management-System\Sales-Management-System.vbproj</RelativePath>
+  </TrackedFiles>
+  <ExcludedItems />
+  <WorkItems />
+</PendingCommit>

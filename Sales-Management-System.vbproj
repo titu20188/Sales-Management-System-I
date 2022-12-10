@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43B62D2A-7221-409A-B053-B331005F4AF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sales_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Sales_Management_System</RootNamespace>
+    <AssemblyName>Sales-Management-System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sales-Management-System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sales-Management-System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\source\repos\Pharmacy_Store_dBase_Vb\Pharmacy_Store_dBase_Vb\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONNECT.vb" />
+    <Compile Include="Este3lam3anSanf.Designer.vb">
+      <DependentUpon>Este3lam3anSanf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Este3lam3anSanf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnectToneededDbase.Designer.vb">
+      <DependentUpon>frmConnectToneededDbase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnectToneededDbase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopier.Designer.vb">
+      <DependentUpon>frmCopier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCopier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab1.Designer.vb">
+      <DependentUpon>fTab1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab10.Designer.vb">
+      <DependentUpon>fTab10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab11.Designer.vb">
+      <DependentUpon>fTab11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab12.Designer.vb">
+      <DependentUpon>fTab12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab2.Designer.vb">
+      <DependentUpon>fTab2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab3.Designer.vb">
+      <DependentUpon>fTab3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab4.Designer.vb">
+      <DependentUpon>fTab4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab5.Designer.vb">
+      <DependentUpon>fTab5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab6.Designer.vb">
+      <DependentUpon>fTab6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab7.Designer.vb">
+      <DependentUpon>fTab7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab8.Designer.vb">
+      <DependentUpon>fTab8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTab9.Designer.vb">
+      <DependentUpon>fTab9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fTab9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leavingfrm.Designer.vb">
+      <DependentUpon>leavingfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="leavingfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_Sym.Designer.vb">
+      <DependentUpon>login_Sym.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login_Sym.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.vb">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RaseedOmala.Designer.vb">
+      <DependentUpon>RaseedOmala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RaseedOmala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Este3lam3anSanf.resx">
+      <DependentUpon>Este3lam3anSanf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab1.resx">
+      <DependentUpon>fTab1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab10.resx">
+      <DependentUpon>fTab10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab11.resx">
+      <DependentUpon>fTab11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab12.resx">
+      <DependentUpon>fTab12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab2.resx">
+      <DependentUpon>fTab2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab3.resx">
+      <DependentUpon>fTab3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab4.resx">
+      <DependentUpon>fTab4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab5.resx">
+      <DependentUpon>fTab5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab6.resx">
+      <DependentUpon>fTab6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab7.resx">
+      <DependentUpon>fTab7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab8.resx">
+      <DependentUpon>fTab8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTab9.resx">
+      <DependentUpon>fTab9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="leavingfrm.resx">
+      <DependentUpon>leavingfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_Sym.resx">
+      <DependentUpon>login_Sym.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaseedOmala.resx">
+      <DependentUpon>RaseedOmala.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BarSkin.png" />
+    <Content Include="Resources\BatterySkin.png" />
+    <Content Include="Resources\btn1.jpg" />
+    <Content Include="Resources\DBClockSkin.png" />
+    <Content Include="Resources\DigitalSkin.png" />
+    <Content Include="Resources\GaugeDescription.png" />
+    <Content Include="Resources\IndicatorSkin.png" />
+    <Content Include="Resources\KpiSkin.png" />
+    <Content Include="Resources\LcdSkin.png" />
+    <Content Include="Resources\LinearSkin.png" />
+    <Content Include="Resources\Medusa_0.fw.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

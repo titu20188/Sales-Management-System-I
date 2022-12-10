@@ -1,0 +1,3 @@
+﻿------ Build started: Project: Sales-Management-System, Configuration: Debug Any CPU ------
+  Sales-Management-System -> C:\Users\Tarek\documents\visual studio 2013\Projects\Sales-Management-System\Sales-Management-System\bin\Debug\Sales-Management-System.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
